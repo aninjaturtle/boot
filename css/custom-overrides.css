@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
 	background-color:#000;
-	font-size: 11.5px;
+	font-size: 1.2em;
 	font-family: Arial, Helvetica, sans-serif;
 }
 a{
@@ -33,51 +33,20 @@ a:hover{
 	padding-right:10px;
 	font-style:italic;
 }
-#content {
-  width: 100%;
-  padding-top: 60px;
-  padding-left: 15%;
-  padding-right: 15%;
-  box-sizing: border-box;
-  z-index:1;
+
+@media (max-width: 989px) and (min-width: 768px){
+body{
+font-size: 1em;
+}
 }
 
-#overlay{
-  width:100%;
-  height:100%;
-  position:fixed;
-  top:0;
-  left:0;
-  background:rgba(0,0,0,0.3);
-  z-index:5;
-  display: none;
+@media (max-width: 767px) and (min-width: 535px){
+body{
+font-size: .9em;
 }
-
-#mobile-menu {
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-out;
-  background-color: rgba(0.3,0.3,0.3,0.3);
-  z-index:10;
-  box-shadow: 1px 1px 10px #aaa;
 }
-
-ul { list-style: none; }
-
-#mobile-menu.open {
-  width: 250px;
-  background-color: #eee;
+@media only screen and (max-width: 535px), only screen and (max-device-width: 535px){
+body{
+font-size: .73em;
 }
-
-#menu-button {
-  position: fixed;
-  top:20px;
-  right: 20px;
-  background-color: #333;
-  color: white;
-  padding: 15px;
 }
