@@ -1,7 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	background-color:#000;
+	font-size: 11.5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	color: #104070;
+	}
+a:hover{
+	text-decoration:none;
+	color: #ec7a08;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+		margin-top:1px;
+		}
 .container{
-	border:solid 1px;
+	border: solid 1px;
+	background-color: #fff;
+	box-shadow: 0px 0px 22px #FFE;
+	margin-top: 50px;
 }
 .col-md-3{
 	border:dashed 1px;
