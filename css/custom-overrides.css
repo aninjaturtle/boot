@@ -37,19 +37,79 @@ a:hover{
 	font-style:italic;
 }
 
-@media (max-width: 989px) and (min-width: 768px){
-body{
-font-size: 1em;
-}
+.alert-widget{
+	width: 100%;
+	background-image: url(../images/striped_green.png);
+	background-repeat: repeat-x;
+	height: auto;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+	overflow:auto;
 }
 
+.alert-widget img{
+	width: auto;
+	height: 75px;
+	float: left;
+}
+.alert-widget-container{
+	height: auto;
+	float: left;
+	padding-left: 14px;
+	margin-top: 1px;
+}
+.alert-widget-container h2{
+	font-size: 1.9em;
+	margin-top: 10px;
+	font-weight: 700;
+	margin-bottom: -2px;
+	
+}
+
+.alert-widget-container p{
+	font-size:.95em;
+	margin:0px;
+}
+
+alert-widget-container a{
+	font-size:.95em;
+}
+
+
+@media (max-width: 989px) and (min-width: 768px){
+body{
+	font-size: 1em;
+}
+
+.alert-widget-container {
+	margin-top: 5px;
+}
+}
 @media (max-width: 767px) and (min-width: 535px){
 body{
-font-size: .9em;
+	font-size: .9em;
+}
+.alert-widget img {
+	height: 55px;
+}
+.alert-widget-container {
+	margin-top: -2px;
 }
 }
 @media only screen and (max-width: 535px), only screen and (max-device-width: 535px){
 body{
-font-size: .73em;
+	font-size: .73em;
+}
+.alert-widget img {
+	height: 49px;
+}
+.alert-widget-container {
+	padding-left: 6px;
+	margin-top: 1px;
 }
 }
+
+
+
+
