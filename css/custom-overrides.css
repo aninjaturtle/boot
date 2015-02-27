@@ -39,7 +39,6 @@ a:hover{
 
 .alert-widget{
 	width: 100%;
-	background-image: url(../images/striped_green.png);
 	background-repeat: repeat-x;
 	height: auto;
 	border-radius: 5px;
@@ -47,7 +46,18 @@ a:hover{
 	margin-bottom: 10px;
 	overflow:auto;
 }
-
+.green{
+	background-image: url(../images/striped_green.png);
+}
+.yellow{
+	background-image: url(../images/striped_yellow.png);
+}
+.orange{
+	background-image: url(../images/striped_orange.png);
+}
+.red{
+	background-image: url(../images/striped_red.png);
+}	
 .alert-widget img{
 	width: auto;
 	height: 75px;
